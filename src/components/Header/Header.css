@@ -1,0 +1,20 @@
+#logo{
+        width: 6rem;
+        height: 6rem;
+}
+#Li:hover{
+        cursor: pointer;
+        color: orange;
+        
+}
+#Li{
+        font-size: 1.5rem;
+}
+#nav{
+        background-color: aqua;       
+}
+body{
+        background-image: none;
+}
+
+

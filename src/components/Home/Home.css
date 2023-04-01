@@ -1,0 +1,68 @@
+html, body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden
+      }
+body{
+        background-image: url("bg.avif");
+        background-repeat: no-repeat;
+        background-position: right top  , x, y  ,  xpos ypos;
+        background-clip: border-box,padding-box,content-box,initial,inherit;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: right;
+        text-align: center;
+        padding-top: 6rem;
+
+        
+}
+.left{
+        display: flex;
+        height: 100vh;
+        padding-left: 3rem;
+}
+.lorem{
+        text-align: left;
+        max-width: 600px;
+        padding-bottom: 1rem;
+        color: #ffffff;
+}
+
+.butt {
+       
+        width: 7rem;
+        height: 2.6rem;
+	background-color:#be40e4;
+	border:2px solid #b638f1;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	
+	text-decoration:none;
+	
+}
+
+.h-text{
+        padding-top: 7rem;
+        display: flex;
+        flex-direction: column;
+}
+.wealth{
+        text-align: left;
+        font-size: 3rem;
+        color: #ffffff;  
+        font-weight:bolder;    
+      
+}
+.health{
+        color: #ffffff;
+        text-align: left;
+        font-size: 3rem;
+        font-weight:bolder;  
+}
